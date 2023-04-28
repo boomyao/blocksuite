@@ -3,6 +3,7 @@
 import type { BlockSchema } from '@blocksuite/store';
 import type { z } from 'zod';
 
+import { AgentBlockSchema } from './agent-block/agent-model.js';
 import {
   type CodeBlockModel,
   CodeBlockSchema,
@@ -46,6 +47,7 @@ export const AffineSchemas: z.infer<typeof BlockSchema>[] = [
   DividerBlockSchema,
   EmbedBlockSchema,
   SurfaceBlockSchema,
+  AgentBlockSchema,
   // DatabaseBlockSchema,
 ];
 

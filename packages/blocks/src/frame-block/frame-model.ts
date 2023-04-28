@@ -20,6 +20,7 @@ export const FrameBlockSchema = defineBlockSchema({
       'affine:divider',
       'affine:database',
       'affine:embed',
+      'affine:agent',
       'affine:frame-block-*',
     ],
   },

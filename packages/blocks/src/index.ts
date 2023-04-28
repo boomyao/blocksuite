@@ -15,6 +15,7 @@ import './embed-block/index.js';
 import './embed-block/image/index.js';
 import './surface-block/index.js';
 import './database-block/index.js';
+import './agent-block/index.js';
 
 export * from './__internal__/rich-text/rich-text-operations.js';
 export { getServiceOrRegister } from './__internal__/service.js';

@@ -29,6 +29,7 @@ export function BlockElement(
     case 'affine:divider':
     case 'affine:code':
     case 'affine:database':
+    case 'affine:agent':
       return html`
         <${model.tag}
           .model=${model}
